@@ -1,0 +1,13 @@
+.navbar {
+  height: 700px;
+  float: right;
+  padding: 10px;
+  color: rgb(240, 244, 243);
+  text-decoration: rgb(41, 60, 146);
+  font-size: 15px;
+  background-color: blueviolet;
+}
+.navbar a:hover {
+   background-color: #c70d0d;
+  color:black;
+}
