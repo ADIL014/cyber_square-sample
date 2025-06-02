@@ -1,13 +1,76 @@
-.navbar {
-  height: 700px;
-  float: right;
-  padding: 10px;
-  color: rgb(240, 244, 243);
-  text-decoration: rgb(41, 60, 146);
-  font-size: 15px;
-  background-color: blueviolet;
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-.navbar a:hover {
-   background-color: #c70d0d;
-  color:black;
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #5a1cde;
+}
+body {
+  background: linear-gradient( to right,blue,violet);
+  
+}
+.navlinks {
+  display: flex;
+  color: white;
+  
+}
+.navbar a{
+  text-decoration: none;
+  padding: 12px;
+  justify-content: space-between;
+
+}
+ul {
+  list-style-type: none;
+}
+
+.div2 {
+  text-align: center;
+  color: white;
+}
+.p1 {
+  color: rgb(181, 178, 255)
+}
+
+.button1 {
+  background: rgb(49, 223, 49);
+  color: white;
+  height: 50px;
+  border-radius: 20%;
+  border: none;
+}
+.button2 {
+  color: white;
+  background: none;
+  height: 50px;
+  border-radius: 20%;
+  border-style: ridge;
+  border-color: white;
+}
+button {
+  margin-right: 10px;
+}
+h1 {
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 30px;
 }
