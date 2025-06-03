@@ -1,21 +1,19 @@
-<style>
+
 ul {
+  display: flex;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-}
+  
+ }
 
-li {
-  float: right;
-}
 
 li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 16px;
   text-decoration: none;
 }
 
@@ -26,27 +24,16 @@ body {
   background: linear-gradient( to right,blue,violet);
   
 }
-.navlinks {
-  display: flex;
+h3 {
   color: white;
-  
+  margin-left: 60px;
 }
-.navbar a{
-  text-decoration: none;
-  padding: 12px;
-  justify-content: space-between;
 
-}
-ul {
-  list-style-type: none;
-}
+
 
 .div2 {
   text-align: center;
   color: white;
-}
-.p1 {
-  color: rgb(181, 178, 255)
 }
 
 .button1 {
