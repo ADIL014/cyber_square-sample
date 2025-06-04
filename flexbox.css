@@ -1,0 +1,53 @@
+
+.header {
+    background: rgb(125, 4, 125);
+    width: 100%;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+.article1 {
+    background: rgb(0, 255, 255);
+    height: 500px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+}
+.article2 {
+    background: rgb(0, 255, 255);
+    height: 500px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+}
+.article3 {
+    background: rgb(0, 255, 255);
+    height: 500px;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+button {
+    margin: 15px;
+    width: 100px;
+    height: 30px;
+    
+}
+.button5 {
+    width: 95%;
+}
+p {
+    font-size: 20px;
+}
