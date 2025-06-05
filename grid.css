@@ -1,0 +1,31 @@
+.main {
+      display: grid;
+      grid-template-columns: 2fr 3fr 1fr ;
+      grid-template-rows: 300px 200px ;
+      text-align: center;
+      gap: 10px;
+      
+}
+
+.div1 {
+      background: red;
+}
+.div2 {
+      background: rgb(0, 255, 136);
+}
+.div3 {
+      background: rgb(55, 0, 255);
+}
+.div4 {
+      background: rgb(0, 255, 255);
+}
+.div5 {
+      background: rgb(149, 202, 25);
+}
+@media (max-width: 600px)
+{
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
