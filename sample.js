@@ -25,3 +25,8 @@ var b=4;
 
 
   
+const  details={ name:"adil", age:25, address:"malappuram"};
+
+
+console.log(details);
+
