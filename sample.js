@@ -17,8 +17,11 @@ var b=4;
   var div=a/b;
 // remainder of two varaibles
   var rem=a%b;
+  
   console.log(mult,div,rem);
   
   var q=a**b;
   console.log(q);
+
+
   
