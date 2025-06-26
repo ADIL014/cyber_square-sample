@@ -31,7 +31,7 @@ else {
 
 //switch conditions
 
-const day='sunday';
+const day='monday';
 switch (day){
     case "monday":
         console.log('start of week');
